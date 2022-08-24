@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5500/Thasli.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title> webpage with form </title>
+  <link rel="stylesheet" type="text/css" href="./webpage with form_files/style.css">
+
+<style>
+body 
+{
+    background-image:url("train.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+    display:flex-top;
+    width:700px; height: 300px;
+    border:5px;
+    padding:200px;
+    margin-left:200 ;
+    font-size:xx-large;
+    color:whitesmoke
+}
+{font-family: Georgia, Times, 'Times New Roman', serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px red;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:black;
+  color: whitesmoke;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+input[type=text] {
+  background-color:purple;
+  color: ;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=] {
+  background-color:RED;
+  color: rgb(42, 184, 42);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+  
+input[type=submit]:hover {
+  background: color orahge #a47474;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: orange;
+  padding: 20px;
+}
+    
+
+
+
+</style>
+</head>
+<body>
+
+<h3> PURPLE TOUR AGENCY</h3>
+
+<div class="container">
+  <form action="http://127.0.0.1:5500/action_page.php">
+    <label for="FNAME">FIRST NAME</label>
+    <input type="text" id="fname" name="FIRST NAME" placeholder="Your name..">
+
+    <label for="lname">LAST NAME</label>
+    <input type="text" id="lname" name="LAST NAME" placeholder="YOUR LAST NAME..">
+
+    <label for="ANAME"> WHAT DO YOU WANT  FROM TOURISM? </label>
+    <input type="TEXT" id="ANAME" name="WHAT DO YOU WANT FROM TOURISM?" placeholder="WHAT DO YOU WANT FROM TOURISM?..">
+    <label for="ANAME"> WHAT KIND OF TOURISM DO YOU WANT? </label>
+    <input type="text" id="ANAME" name="WHAT KIND OF TOURISM DO YOU WANT?" placeholder="WHAT KIND OF TOURISM DO YOU WANT?..">    <label for="ANAME"> WHICH TYPES OF FOOD ARE YOU PREFERED?</label>
+    <input type="TEXT" id="ANAME" name="WHICH TYPES OF FOOD ARE YOU PREFERED?" placeholder="WHICH TYPES OF FOOD  ARE YOU PREFERED?..">
+        <label for="ANAME"> HOW MANY DAYS TRIP DO YOU WANT?</label>
+        <input type="TEXT" id="ANAME" name="HOW MANY DAYS TRIP DO YOU WANT?" placeholder="HOW MANY DAYS TRIP DO YOU WANT?" ..="">
+        <label for="ANAME"> HOW DO YOU PLAN YOUR TRIP </label> 
+        <input type="text" id="ANAME" name="HOW DO YOU PLAN YOUR TRIP?" placeholder="HOW DO YOU PLAN YOUR TRIP..">
+          <label for="ANAME">MOBILE NUMBER </label>
+            <input type="TEXT" id="ANAME" name=" MOBILE NUMBER" placeholder="MOBILE NUMBER" ..="">
+            <label for="ANAME">EMAIL</label>
+            <input type="TEXT" id="ANAME" name="EMAIL" ..="">
+    <p> purpose of the trip </p>
+    
+      <input type="radio" id="business" name="fav_place" value="business">
+      <label for="business"> business </label>
+      <br>
+      <input type="radio" id="vaccation" name="fav_place" value="vaccation">
+      <label for="vaccation"> vaccation </label>
+      <br>
+      <input type="radio" id="study" name="fav_place" value="study">
+      <label for="study"> study</label>
+      <br> 
+      <input type="radio" id="others" name="fav_place" value="others">
+      <label for="others"> others </label>
+    </form>
+  
+
+
+    <label for="CITY">CITY</label>
+    <select id="CITY" name="CITY">
+      <option value="CHENNAI">CHENNAI</option>
+      <option value="COIMBATORE">COIMBATORE</option>
+      <option value="MADURAI">MADURAI</option>
+      <option value="TIRUCHI">TIRUCHI</option>
+      <option value="TIRUPPUR">TIRUPPUR</option>
+      <option value="ERODE">ERODE</option>
+      <option value="SALEM">SALEM</option>
+      <option value="SIVAKASI">SIVAKASI</option>
+      <option value="NAGERCOIL">NAGERCOIL</option>
+      <option value="POLLACHI">POLLACHI</option>
+      
+    </select>
+
+    <label for="WHAT ARE THE PLACES WOULD YOU LIKE TO TRAVEL">Your message</label>
+    <textarea id="Your message" name="Your message" placeholder="Write something.." style="height:100px"></textarea>
+    
+    <input type="submit" value="Submit">
+  
+</div>
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>

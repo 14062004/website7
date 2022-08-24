@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> webpage with form </title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+<style>
+body 
+{
+    background-image:url("train.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+    display:flex-top;
+    width:700px; height: 300px;
+    border:5px;
+    padding:200px;
+    margin-left:200 ;
+    font-size:xx-large;
+    color:whitesmoke
+}
+{font-family: Georgia, Times, 'Times New Roman', serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px red;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:black;
+  color: whitesmoke;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+input[type=text] {
+  background-color:purple;
+  color: ;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=] {
+  background-color:RED;
+  color: rgb(42, 184, 42);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+  
+input[type=submit]:hover {
+  background: color orahge #a47474;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: orange;
+  padding: 20px;
+}
+    
+
+
+
+</style>
+</head>
+<body>
+
+<h3> PURPLE TOUR AGENCY</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="FNAME">FIRST NAME</label>
+    <input type="text" id="fname" name="FIRST NAME" placeholder="Your name..">
+
+    <label for="lname">LAST NAME</label>
+    <input type="text" id="lname" name="LAST NAME" placeholder="YOUR LAST NAME..">
+
+    <LABEL FOR="ANAME"> WHAT DO YOU WANT  FROM TOURISM? </LABEL>
+    <INPUT TYPE="TEXT"ID="ANAME" NAME="WHAT DO YOU WANT FROM TOURISM?" PLACEHOLDER="WHAT DO YOU WANT FROM TOURISM?..">
+    <label for="ANAME"> WHAT KIND OF TOURISM DO YOU WANT? </label>
+    <input type="text" id="ANAME"NAME="WHAT KIND OF TOURISM DO YOU WANT?" placeholder="WHAT KIND OF TOURISM DO YOU WANT?..">    <LABEL FOR="ANAME"> WHICH TYPES OF FOOD ARE YOU PREFERED?</LABEL>
+    <INPUT TYPE="TEXT" ID="ANAME" NAME="WHICH TYPES OF FOOD ARE YOU PREFERED?" PLACEHOLDER="WHICH TYPES OF FOOD  ARE YOU PREFERED?..">
+        <LABEL FOR="ANAME"> HOW MANY DAYS TRIP DO YOU WANT?</LABEL>
+        <INPUT TYPE="TEXT" ID="ANAME" NAME="HOW MANY DAYS TRIP DO YOU WANT?"PLACEHOLDER="HOW MANY DAYS TRIP DO YOU WANT?"..>
+        <label for="ANAME"> HOW DO YOU PLAN YOUR TRIP </label> 
+        <input type="text" id="ANAME" name="HOW DO YOU PLAN YOUR TRIP?" placeholder="HOW DO YOU PLAN YOUR TRIP..">
+          <LABEL FOR="ANAME">MOBILE NUMBER </LABEL>
+            <INPUT TYPE="TEXT" ID="ANAME" NAME=" MOBILE NUMBER" PLACEHOLDER="MOBILE NUMBER"..>
+            <LABEL FOR="ANAME">EMAIL</LABEL>
+            <INPUT TYPE="TEXT"ID="ANAME" NAME="EMAIL"..>
+    <p> purpose of the trip </p>
+    <form>
+      <input type="radio" id="business" name="fav_place" value="business">
+      <label for="business"> business </label>
+      <br>
+      <input type="radio" id="vaccation" name="fav_place" value="vaccation">
+      <label for="vaccation"> vaccation </label>
+      <br>
+      <input type="radio" id="study" name="fav_place" value="study">
+      <label for="study"> study</label>
+      <br> 
+      <input type="radio" id="others" name="fav_place" value="others">
+      <label for="others"> others </label>
+    </form>
+  
+
+
+    <label for="CITY">CITY</label>
+    <select id="CITY" name="CITY">
+      <option value="CHENNAI">CHENNAI</option>
+      <option value="COIMBATORE">COIMBATORE</option>
+      <option value="MADURAI">MADURAI</option>
+      <option value="TIRUCHI">TIRUCHI</option>
+      <option value="TIRUPPUR">TIRUPPUR</option>
+      <option value="ERODE">ERODE</option>
+      <option value="SALEM">SALEM</option>
+      <option value="SIVAKASI">SIVAKASI</option>
+      <option value="NAGERCOIL">NAGERCOIL</option>
+      <option value="POLLACHI">POLLACHI</option>
+      
+    </select>
+
+    <label for="WHAT ARE THE PLACES WOULD YOU LIKE TO TRAVEL">Your message</label>
+    <textarea id="Your message" name="Your message" placeholder="Write something.." style="height:100px"></textarea>
+    
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
